@@ -1,238 +1,223 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset=utf-8 />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
 
-	<title>DJ Chuwy website</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-	<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
-	<script type="text/javascript">
-//<![CDATA[
-$(document).ready(function(){
+        <title>DJ Chuwy website</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+        <script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+        <script type="text/javascript">
+            //<![CDATA[
+        $(document).ready(function(){
 
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_1",
-		cssSelectorAncestor: "#jp_container_1"
-	}, [
-	{
-		mp3: 'music/atmosphericstrangers.mp3',
-		title: 'Atmospheric Strangers',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3: 'music/LastChancetoLettheLoveStealYouAway.mp3',
-		title: 'Last Chance to Steal You Away',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3: 'music/AliveasApollo.mp3',
-		title: 'Alive as Apollo',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3: 'music/Dontyouworrysweetie.mp3',
-		title: 'Don\'t You Worry Sweetie',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3: 'music/HeiressofClarity.mp3',
-		title: 'Heiress of Clarity',
-		artist: 'DJ Chuwy',
-		free: true
-	},
-	{
-		mp3: 'music/FallenOnMyWayToHeaven.mp3',
-		title: 'Fallen On My Way to Heaven',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3:'music/CallingCityofSpectrumDreams.mp3',
-		title: 'Calling, City of Spectrum Dreams',
-		artist: 'DJ Chuwy',
-		free: true
-	} ,
-	{
-		mp3: 'music/ClearSilhouettes.mp3',
-		title: 'Clear Silhouettes',
-		artist: 'DJ Chuwy',
-		free: true
-	},
-	{
-		mp3:'music/DisarmYourselfSunMoon.mp3',
-		title:'Disarm Yourself Sun & Moon',
-		artist:'DJ Chuwy',
-		free: true
+                new jPlayerPlaylist({
+jPlayer: "#jquery_jplayer_1",
+cssSelectorAncestor: "#jp_container_1"
+}, [
+{
+mp3: 'music/LastChancetoLettheLoveStealYouAway.mp3',
+title: 'Last Chance to Steal You Away',
+artist: 'DJ Chuwy',
+free: true
+} ,
+{
+mp3: 'music/atmosphericstrangers.mp3',
+title: 'Atmospheric Strangers',
+artist: 'DJ Chuwy',
+free: true
+} ,
+{
+mp3: 'music/AliveasApollo.mp3',
+title: 'Alive as Apollo',
+artist: 'DJ Chuwy',
+free: true
+} ,
+{
+mp3: 'music/Dontyouworrysweetie.mp3',
+     title: 'Don\'t You Worry Sweetie',
+     artist: 'DJ Chuwy',
+     free: true
+} ,
+{
+mp3: 'music/HeiressofClarity.mp3',
+     title: 'Heiress of Clarity',
+     artist: 'DJ Chuwy',
+     free: true
+},
+{
+mp3: 'music/FallenOnMyWayToHeaven.mp3',
+     title: 'Fallen On My Way to Heaven',
+     artist: 'DJ Chuwy',
+     free: true
+} ,
+{
+mp3:'music/CallingCityofSpectrumDreams.mp3',
+    title: 'Calling, City of Spectrum Dreams',
+    artist: 'DJ Chuwy',
+    free: true
+} ,
+{
+mp3: 'music/ClearSilhouettes.mp3',
+     title: 'Clear Silhouettes',
+     artist: 'DJ Chuwy',
+     free: true
+},
+{
+mp3:'music/DisarmYourselfSunMoon.mp3',
+    title:'Disarm Yourself Sun & Moon',
+    artist:'DJ Chuwy',
+    free: true
 
-	},
-	{
-		mp3:'music/ThingCalledLoveOnaGoodDay.mp3',
-		title: 'Thing Called Love on a Good Day',
-		artist: 'DJ Chuwy',
-		free: true
-	},
-	{
-		mp3: 'music/BeautyintheEyes.mp3',
-		title: 'Beauty in the Eyes',
-		artist: 'DJ Chuwy',
-		free: true
-	}, 
-	{
-		mp3:'music/TitaniumSpectrum.mp3',
-		title: 'Titanium Spectrum',
-		artist: 'DJ Chuwy',
-		free: true
-	},
+},
+{
+mp3:'music/ThingCalledLoveOnaGoodDay.mp3',
+    title: 'Thing Called Love on a Good Day',
+    artist: 'DJ Chuwy',
+    free: true
+},
+{
+mp3: 'music/BeautyintheEyes.mp3',
+     title: 'Beauty in the Eyes',
+     artist: 'DJ Chuwy',
+     free: true
+}, 
+{
+mp3:'music/TitaniumSpectrum.mp3',
+    title: 'Titanium Spectrum',
+    artist: 'DJ Chuwy',
+    free: true
+},
 
-	{
-		mp3:'music/NumbingClarity.mp3',
-		title: 'Numbing Clarity',
-		artist: 'DJ Chuwy',
-		free: true
-	},
+{
+mp3:'music/NumbingClarity.mp3',
+    title: 'Numbing Clarity',
+    artist: 'DJ Chuwy',
+    free: true
+},
 
-	{
-		mp3: 'music/Dontwakemeupinmymind.mp3',
-		title: 'Don\'t Wake Me Up In My Mind',
-		artist: 'DJ Chuwy',
-		free: true
-	},
+{
+mp3: 'music/Dontwakemeupinmymind.mp3',
+     title: 'Don\'t Wake Me Up In My Mind',
+     artist: 'DJ Chuwy',
+     free: true
+},
 
-	{
-		mp3:'music/ComingHomeWithoutYou.mp3',
-		title: 'Coming Home Without You',
-		artist: 'DJ Chuwy',
-		free: true
-	},
-	{
-		mp3:'music/ParadiseHeartbeat.mp3',
-		title: 'Paradise Heartbeat',
-		artist: 'DJ Chuwy',
-		free: true
-	}
+{
+mp3:'music/ComingHomeWithoutYou.mp3',
+    title: 'Coming Home Without You',
+    artist: 'DJ Chuwy',
+    free: true
+},
+{
+mp3:'music/ParadiseHeartbeat.mp3',
+    title: 'Paradise Heartbeat',
+    artist: 'DJ Chuwy',
+    free: true
+}
 
-	], {
+], {
 
-		swfPath: "js",
+swfPath: "js",
 
-		supplied: "oga, mp3",
+         supplied: "oga, mp3",
 
-		wmode: "window",
+         wmode: "window",
 
-		smoothPlayBar: true,
+         smoothPlayBar: true,
 
-		keyEnabled: true
+         keyEnabled: true
 
-	});
+});
 
 });
 
 //]]>
+</script>
+</head>
+<body style data-dynamite-selected="true">
+    <div class="container">
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">DJ Chuwy</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                    <a href="./">Mashups</a>
+                    </li>
+                    <li>
+                    <a href="./mixcloud.html">Mixcloud</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+        <div id="jp_container_1" class="jp-audio">
+            <div class="jp-type-playlist">
+                <div class="jp-gui jp-interface">
+                    <ul class="jp-controls">
+                        <li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+                        <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+                        <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+                        <li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+                        <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+                        <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+                        <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+                    </ul>
+                    <div class="jp-progress">
+                        <div class="jp-seek-bar">
+                            <div class="jp-play-bar"></div>
+                        </div>
+                    </div>
+                    <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                    </div>
+                    <div class="jp-time-holder">
+                        <div class="jp-current-time"></div>
+                        <div class="jp-duration"></div>
+                    </div>
+                    <ul class="jp-toggles">
+                        <li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
+                        <li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
+                        <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+                        <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+                    </ul>
+                </div>
+
+                <div class="jp-playlist">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="jp-no-solution">
+                    <span>Update Required</span>
+                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36034930-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
 
 </script>
-
-</head>
-
-<body>
-
-	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
-
-	<div id="jp_container_1" class="jp-audio">
-
-		<div class="jp-type-playlist">
-
-			<div class="jp-gui jp-interface">
-
-				<ul class="jp-controls">
-
-					<li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
-
-					<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-
-					<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
-
-					<li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
-
-					<li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
-
-					<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
-
-					<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
-
-					<li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
-
-				</ul>
-
-				<div class="jp-progress">
-
-					<div class="jp-seek-bar">
-
-						<div class="jp-play-bar"></div>
-
-					</div>
-
-				</div>
-
-				<div class="jp-volume-bar">
-
-					<div class="jp-volume-bar-value"></div>
-
-				</div>
-
-				<div class="jp-time-holder">
-
-					<div class="jp-current-time"></div>
-
-					<div class="jp-duration"></div>
-
-				</div>
-
-				<ul class="jp-toggles">
-
-					<li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
-
-					<li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
-
-					<li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
-
-					<li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
-
-				</ul>
-
-			</div>
-
-			<div class="jp-playlist">
-
-				<ul>
-
-					<li></li>
-
-				</ul>
-
-			</div>
-
-			<div class="jp-no-solution">
-
-				<span>Update Required</span>
-
-				To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-
-			</div>
-
-		</div>
-
-	</div>
-
-</body>
-
-
-
-</html>
-
